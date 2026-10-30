@@ -1,11 +1,11 @@
 {
-    "version": "0.32.7",
+    "version": "0.32.9",
     "description": "Audit trail and traceability for AI agents. See what every coding agent did and check each tool call against policy.",
     "homepage": "https://shield-agent.com/install",
     "license": "MIT",
     "depends": "nodejs",
-    "url": "https://registry.npmjs.org/@shield-agent/kya/-/kya-0.32.7.tgz",
-    "hash": "sha256:636be7a469712c0adc8ec72184fec617fd53b24ebe83d053c443ce7058979a68",
+    "url": "https://registry.npmjs.org/@shield-agent/kya/-/kya-0.32.9.tgz",
+    "hash": "sha256:70f6d20034744b25dd4e1a1b0b154dc9a6a2322ae2653cc7df4834568d3fe98c",
     "extract_dir": "package",
     "pre_install": [
         "Set-Content -Path \"$dir\\kya.cmd\" -Value '@node \"%~dp0dist\\cli.js\" %*' -Encoding Ascii"
