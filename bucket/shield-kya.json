@@ -1,11 +1,11 @@
 {
-    "version": "0.35.3",
+    "version": "0.35.5",
     "description": "Stops your coding agent from deleting, leaking or dropping things. Records everything else.",
     "homepage": "https://shield-agent.com/install",
     "license": "MIT",
     "depends": "nodejs",
-    "url": "https://registry.npmjs.org/@shield-agent/kya/-/kya-0.35.3.tgz",
-    "hash": "sha256:74988ca5939f25b78b4ee9e5c8d2c89f4aec4d2bff23bd927d7f2c4e6631f110",
+    "url": "https://registry.npmjs.org/@shield-agent/kya/-/kya-0.35.5.tgz",
+    "hash": "sha256:f77037cde3bc552e0bef9263d460a4f939de4cbad9c12f32bda1c3cb5c929280",
     "extract_dir": "package",
     "pre_install": [
         "Set-Content -Path \"$dir\\kya.cmd\" -Value '@node \"%~dp0dist\\cli.js\" %*' -Encoding Ascii"
